@@ -62,6 +62,10 @@ public class PersonalDetailsPageElements {
 	@FindBy(id="personal_txtMilitarySer")
 	public WebElement militaryService;
 	
+	@FindBy (linkText="Qualifications")
+	public WebElement qualifications;
+	
+	
 
 	public PersonalDetailsPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);

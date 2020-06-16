@@ -6,6 +6,7 @@ import com.hrms.pages.DefineReportPageElements;
 import com.hrms.pages.EmployeeReportsPageElements;
 import com.hrms.pages.LoginPageElements;
 import com.hrms.pages.PersonalDetailsPageElements;
+import com.hrms.pages.QualificationsPageElements;
 import com.hrms.pages.ViewEmployeeListPageElements;
 
 
@@ -20,6 +21,7 @@ public class PageInitializer extends BaseClass{
 	public static DefineReportPageElements defineReport;
 	public static EmployeeReportsPageElements empReports;
 	public static ViewEmployeeListPageElements viewEmp;
+	public static QualificationsPageElements qualifications;
 	
 	public static void initialize() {
 		
@@ -30,5 +32,6 @@ public class PageInitializer extends BaseClass{
 		defineReport=new DefineReportPageElements();
 		empReports=new EmployeeReportsPageElements();
 		viewEmp=new ViewEmployeeListPageElements();
+		qualifications=new QualificationsPageElements();
 	}
 }
